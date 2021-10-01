@@ -1,0 +1,33 @@
+main {
+    display: grid;
+}
+
+.intro-container {
+    grid-area: intro;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.about-me-container {
+    grid-area: about-me;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.projects-container {
+    grid-area: projects;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.skill-set-container {
+    grid-area: skill-set;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.contact-container {
+    grid-area: contact;
+    background-color: aqua;
+    border: 2px solid black;
+}

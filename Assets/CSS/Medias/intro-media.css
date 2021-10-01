@@ -16,9 +16,19 @@
 /* Laptop and Desktop View */
 
 @media only screen and (min-width:1280px) {
-    main {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1fr, 5);
-        grid-template-areas: "intro" "about-me" "projects" "skill-set" "contact";
+    .intro-container h1 {
+        margin: 0;
+        font-size: 96px;
+    }
+    .short-desc {
+        font-size: 24px;
+    }
+    .intro-container button {
+        height: 48px;
+        width: 236px;
+        font-size: 18px;
+    }
+    .hire-me {
+        margin-left: 2%;
     }
 }
