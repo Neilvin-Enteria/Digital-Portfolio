@@ -16,17 +16,23 @@
 /* Laptop and Desktop View */
 
 @media only screen and (min-width:1280px) {
+    .intro-container {
+        padding-top: 10rem;
+    }
     .intro-container h1 {
         margin: 0;
+        line-height: 7rem;
         font-size: 96px;
     }
     .short-desc {
         font-size: 24px;
+        margin-left: 12px;
     }
     .intro-container button {
         height: 48px;
         width: 236px;
         font-size: 18px;
+        margin-left: 12px;
     }
     .hire-me {
         margin-left: 2%;
