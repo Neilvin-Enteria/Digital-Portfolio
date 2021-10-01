@@ -15,4 +15,31 @@
 
 /* Laptop and Desktop View */
 
-@media only screen and (min-width:1280px) {}
+@media only screen and (min-width:1280px) {
+    .about-me-container {
+        display: grid;
+        grid-template-columns: 1fr 1.6fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-template-areas: "about-me-title about-me-title" "about-me-dp about-me-details";
+    }
+    .title-about-me h2 {
+        font-size: 72px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title-about-me p {
+        font-size: 18px;
+        margin-top: -4px;
+        margin-left: 2px;
+    }
+    .personal-picture img {
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+    }
+    .personal-details {
+        font-size: 18px;
+        padding: 0 4rem 0 4rem;
+        height: 97.5%;
+    }
+}

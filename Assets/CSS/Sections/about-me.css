@@ -1,0 +1,16 @@
+.title-about-me {
+    grid-area: about-me-title;
+}
+
+.personal-picture {
+    grid-area: about-me-dp;
+}
+
+.personal-picture img {
+    border: 3px solid black;
+}
+
+.personal-details {
+    border: 3px solid black;
+    grid-area: about-me-details;
+}

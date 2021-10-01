@@ -1,0 +1,22 @@
+.title-projects {
+    grid-area: title-projects;
+}
+
+.project-1-title {
+    grid-area: project-title;
+    color: #003366;
+}
+
+.project-1-details {
+    grid-area: project-1-details;
+    display: inline-block;
+}
+
+.project-1-language-button {
+    grid-area: project-1-language-button;
+}
+
+.project-1-image {
+    grid-area: project-1-image;
+    border: 2px solid black;
+}

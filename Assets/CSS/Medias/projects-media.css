@@ -15,4 +15,50 @@
 
 /* Laptop and Desktop View */
 
-@media only screen and (min-width:1280px) {}
+@media only screen and (min-width:1280px) {
+    .project-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 0.3fr 0.3fr 0.3fr;
+        grid-template-areas: "title-projects title-projects" "project-title project-1-image" "project-1-details project-1-image" "project-1-language-button project-1-image";
+    }
+    .title-projects h2 {
+        font-size: 72px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title-projects p {
+        font-size: 18px;
+        margin-top: -4px;
+        margin-left: 2px;
+    }
+    .project-1-title h1 {
+        font-size: 52px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .project-1-title p {
+        font-size: 18px;
+        margin-top: -6px;
+        margin-left: 2px;
+        margin-bottom: 0px;
+    }
+    .project-1-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .project-1-language-button {
+        font-size: 18px;
+        margin-top: -6px;
+        margin-left: 2px;
+        margin-bottom: 0px;
+    }
+    .project-1-language-button button {
+        background-color: #05111A;
+        color: white;
+        height: 48px;
+        width: 236px;
+        font-size: 14px;
+    }
+}
