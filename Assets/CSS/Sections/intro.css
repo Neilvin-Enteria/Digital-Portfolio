@@ -4,10 +4,10 @@
 
 .intro-container button {
     background-color: #05111A;
-    color: white
+    color: white;
+    cursor: pointer;
 }
 
 nav {
     grid-area: nav;
-    border: 2px solid black;
 }

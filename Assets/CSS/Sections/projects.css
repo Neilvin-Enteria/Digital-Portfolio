@@ -20,3 +20,7 @@
     grid-area: project-1-image;
     border: 2px solid black;
 }
+
+.project-1-language-button button {
+    cursor: pointer;
+}

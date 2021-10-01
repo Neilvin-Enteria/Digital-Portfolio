@@ -21,10 +21,11 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.5fr 0.3fr 0.3fr 0.3fr;
         grid-template-areas: "title-projects title-projects" "project-title project-1-image" "project-1-details project-1-image" "project-1-language-button project-1-image";
+        grid-column-gap: 30px;
     }
     .title-projects h2 {
         font-size: 72px;
-        margin-top: 0px;
+        margin-top: -30px;
         margin-bottom: 0px;
     }
     .title-projects p {
@@ -42,6 +43,10 @@
         margin-top: -6px;
         margin-left: 2px;
         margin-bottom: 0px;
+    }
+    .project-1-image {
+        height: 350px;
+        width: 700px;
     }
     .project-1-image img {
         height: 100%;
