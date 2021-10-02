@@ -13,6 +13,10 @@ section {
     padding: 5%;
 }
 
+a {
+    color: transparent;
+}
+
 
 /* Intro Section Elements */
 
@@ -216,17 +220,14 @@ nav {
 
 .title-contact {
     grid-area: contact-title;
-    border: 2px solid black;
 }
 
 .ending-remarks {
     grid-area: endings-remarks;
-    border: 2px solid black;
 }
 
 .email-phone-number {
     grid-area: email-number;
-    border: 2px solid black;
 }
 
 .other-platforms {

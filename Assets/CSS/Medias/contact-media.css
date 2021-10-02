@@ -18,7 +18,7 @@
 @media only screen and (min-width:1280px) {
     .contact-container {
         grid-template-columns: 1.5fr 0.3fr 0.3fr;
-        grid-template-rows: 0.4fr 0.2fr 0.5fr;
+        grid-template-rows: 0.3fr 0.3fr 0.5fr;
         grid-template-areas: "contact-title other-platforms shape" "endings-remarks other-platforms shape" "email-number other-platforms shape";
     }
     .title-contact h2 {
@@ -45,8 +45,8 @@
     }
     .other-platforms img {
         object-fit: cover;
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
     .other-platforms {
         position: relative;
