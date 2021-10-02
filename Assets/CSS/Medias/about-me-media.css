@@ -17,7 +17,6 @@
 
 @media only screen and (min-width:1280px) {
     .about-me-container {
-        display: grid;
         grid-template-columns: 1fr 1.6fr;
         grid-template-rows: 0.5fr 0.5fr;
         grid-template-areas: "about-me-title about-me-title" "about-me-dp about-me-details";

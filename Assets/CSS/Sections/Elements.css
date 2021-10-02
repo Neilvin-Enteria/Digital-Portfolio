@@ -79,5 +79,41 @@ nav {
 
 /* Skill Set Section Elements */
 
+.title-skill-set {
+    grid-area: skill-set-title;
+}
+
+.skill-html {
+    grid-area: html;
+}
+
+.skill-css {
+    grid-area: css;
+}
+
+.skill-js {
+    grid-area: js;
+}
+
+.skill-figma {
+    grid-area: figma;
+}
+
+.skill-java {
+    grid-area: java;
+}
+
+.skill-php {
+    grid-area: php;
+}
+
+.skill-mysql {
+    grid-area: mysql;
+}
+
+.skill-git {
+    grid-area: git;
+}
+
 
 /* Contact Me Section Elements */

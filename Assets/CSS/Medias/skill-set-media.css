@@ -15,4 +15,37 @@
 
 /* Laptop and Desktop View */
 
-@media only screen and (min-width:1280px) {}
+@media only screen and (min-width:1280px) {
+    .skill-set-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr;
+        grid-template-areas: "skill-set-title" "skills";
+    }
+    .skill-name-percentage {
+        grid-area: skills;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.6fr 0.6fr 0.6fr 1fr;
+        grid-template-areas: "html java" " css php" "js mysql" "figma git";
+    }
+    .title-skill-set h2 {
+        font-size: 72px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title-skill-set p {
+        font-size: 18px;
+        margin-top: -4px;
+        margin-left: 2px;
+    }
+    .skill-name {
+        font-size: 32px;
+        padding: 0;
+        margin-bottom: 2%;
+    }
+    .percentage {
+        border: 2px solid black;
+        width: 90%;
+    }
+}
