@@ -26,12 +26,12 @@
         grid-area: skills;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.6fr 0.6fr 0.6fr 1fr;
+        grid-template-rows: 0.4fr 0.4fr 0.4fr 1fr;
         grid-template-areas: "html java" " css php" "js mysql" "figma git";
     }
     .title-skill-set h2 {
         font-size: 72px;
-        margin-top: 0px;
+        margin-top: -25px;
         margin-bottom: 0px;
     }
     .title-skill-set p {
@@ -42,10 +42,10 @@
     .skill-name {
         font-size: 32px;
         padding: 0;
+        margin-top: 3%;
         margin-bottom: 2%;
     }
     .percentage {
-        border: 2px solid black;
         width: 90%;
     }
 }

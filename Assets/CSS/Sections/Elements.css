@@ -115,5 +115,101 @@ nav {
     grid-area: git;
 }
 
+.html-percentage {
+    background-color: #E5E5E5;
+    width: 70%;
+    border: 2px solid black;
+}
+
+.css-percentage {
+    background-color: #E5E5E5;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.js-percentage {
+    background-color: #E5E5E5;
+    width: 30%;
+    border: 2px solid black;
+}
+
+.figma-percentage {
+    background-color: #E5E5E5;
+    width: 70%;
+    border: 2px solid black;
+}
+
+.java-percentage {
+    background-color: #E5E5E5;
+    width: 60%;
+    border: 2px solid black;
+}
+
+.php-percentage {
+    background-color: #E5E5E5;
+    width: 40%;
+    border: 2px solid black;
+}
+
+.mysql-percentage {
+    background-color: #E5E5E5;
+    width: 40%;
+    border: 2px solid black;
+}
+
+.git-percentage {
+    background-color: #E5E5E5;
+    width: 60%;
+    border: 2px solid black;
+}
+
+.html-percentage p {
+    margin: 0;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.css-percentage p {
+    margin: 0;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.js-percentage p {
+    margin: 0;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.figma-percentage p {
+    margin: 0;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.java-percentage p {
+    margin: 0;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.php-percentage p {
+    margin: 0;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.mysql-percentage p {
+    margin: 0;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.git-percentage p {
+    margin: 0;
+    text-align: right;
+    margin-right: 2%;
+}
+
 
 /* Contact Me Section Elements */
