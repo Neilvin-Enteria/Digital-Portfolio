@@ -232,7 +232,6 @@ nav {
 .other-platforms {
     display: grid;
     grid-area: other-platforms;
-    border: 2px solid black;
 }
 
 .shape {

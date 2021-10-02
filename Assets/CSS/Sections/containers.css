@@ -4,33 +4,23 @@ main {
 
 .intro-container {
     grid-area: intro;
-    background-color: aqua;
-    border: 2px solid black;
 }
 
 .about-me-container {
     display: grid;
     grid-area: about-me;
-    background-color: aqua;
-    border: 2px solid black;
 }
 
 .projects-container {
     grid-area: projects;
-    background-color: aqua;
-    border: 2px solid black;
 }
 
 .skill-set-container {
     display: grid;
     grid-area: skill-set;
-    background-color: aqua;
-    border: 2px solid black;
 }
 
 .contact-container {
     display: grid;
     grid-area: contact;
-    background-color: aqua;
-    border: 2px solid black;
 }
