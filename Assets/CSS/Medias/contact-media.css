@@ -15,4 +15,45 @@
 
 /* Laptop and Desktop View */
 
-@media only screen and (min-width:1280px) {}
+@media only screen and (min-width:1280px) {
+    .contact-container {
+        grid-template-columns: 1.5fr 0.3fr 0.3fr;
+        grid-template-rows: 0.4fr 0.2fr 0.5fr;
+        grid-template-areas: "contact-title other-platforms shape" "endings-remarks other-platforms shape" "email-number other-platforms shape";
+    }
+    .title-contact h2 {
+        font-size: 72px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title-contact p {
+        font-size: 18px;
+        margin-top: -4px;
+        margin-left: 2px;
+    }
+    .ending-remarks p {
+        font-size: 18px;
+    }
+    .email-phone-number h1 {
+        font-size: 52px;
+        margin: 0;
+    }
+    .email-phone-number p {
+        font-size: 18px;
+        margin-top: -4px;
+        margin-left: 2px;
+    }
+    .other-platforms img {
+        object-fit: cover;
+        width: 60px;
+        height: 60px;
+    }
+    .other-platforms {
+        position: relative;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr;
+        grid-template-areas: "facebook" "linkin" "github";
+        top: 25%;
+        left: 50%;
+    }
+}

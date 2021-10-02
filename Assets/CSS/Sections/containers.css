@@ -29,6 +29,7 @@ main {
 }
 
 .contact-container {
+    display: grid;
     grid-area: contact;
     background-color: aqua;
     border: 2px solid black;

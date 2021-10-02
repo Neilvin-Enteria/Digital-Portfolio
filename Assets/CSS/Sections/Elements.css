@@ -213,3 +213,45 @@ nav {
 
 
 /* Contact Me Section Elements */
+
+.title-contact {
+    grid-area: contact-title;
+    border: 2px solid black;
+}
+
+.ending-remarks {
+    grid-area: endings-remarks;
+    border: 2px solid black;
+}
+
+.email-phone-number {
+    grid-area: email-number;
+    border: 2px solid black;
+}
+
+.other-platforms {
+    display: grid;
+    grid-area: other-platforms;
+    border: 2px solid black;
+}
+
+.shape {
+    grid-area: shape;
+    background-color: black;
+    width: 100%;
+}
+
+.facebook {
+    grid-area: facebook;
+    cursor: pointer;
+}
+
+.linkin {
+    grid-area: linkin;
+    cursor: pointer;
+}
+
+.github {
+    grid-area: github;
+    cursor: pointer;
+}
