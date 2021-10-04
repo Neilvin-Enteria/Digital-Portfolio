@@ -1,6 +1,45 @@
 /* Mobile View - Portrait*/
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .about-me-container {
+        grid-template-columns: 155px 175px;
+        grid-template-rows: 0.85fr 0.5fr 0.5fr;
+        grid-template-areas: "about-me-title about-me-title" "about-me-dp first-part" "second-part second-part";
+        padding: 0 0 0 0;
+        grid-row-gap: 2px;
+        height: inherit;
+    }
+    .title-about-me h2 {
+        font-size: 44px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title-about-me p {
+        font-size: 12px;
+        margin-top: -4px;
+        margin-left: 2px;
+    }
+    .personal-picture {
+        width: 10%;
+    }
+    .personal-picture img {
+        height: 150px;
+        width: 145px;
+        border: 2px solid black;
+        object-fit: cover;
+    }
+    .first-part {
+        font-size: 9px;
+        border: 2px solid black;
+        padding: 0 0.8rem 0 0.8rem;
+        height: 95%;
+    }
+    .second-part {
+        font-size: 9px;
+        border: 2px solid black;
+        padding: 0 0.8rem 0 0.8rem;
+    }
+}
 
 
 /* Tablet - Portrait and Mobile Landscape View */
@@ -15,11 +54,11 @@
 
 /* Laptop and Desktop View */
 
-@media only screen and (min-width:1280px) {
+@media only screen and (min-width: 480px) {
     .about-me-container {
         grid-template-columns: 1fr 1.6fr;
-        grid-template-rows: 0.5fr 0.5fr;
-        grid-template-areas: "about-me-title about-me-title" "about-me-dp about-me-details";
+        grid-template-rows: 0.5fr 0.2fr 1fr;
+        grid-template-areas: "about-me-title about-me-title" "about-me-dp first-part" "about-me-dp second-part";
     }
     .title-about-me h2 {
         font-size: 72px;
@@ -35,10 +74,12 @@
         height: 400px;
         width: 400px;
         object-fit: cover;
+        border: 3px solid black;
     }
-    .personal-details {
-        font-size: 18px;
-        padding: 1rem 4rem 0 4rem;
-        height: 94%;
+    .first-part {
+        padding: 3rem 0.8rem 0 0.8rem;
+    }
+    .second-part {
+        padding: 0 0.8rem 0 0.8rem;
     }
 }

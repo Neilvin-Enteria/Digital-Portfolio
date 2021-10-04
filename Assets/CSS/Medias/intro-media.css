@@ -1,6 +1,38 @@
 /* Mobile View - Portrait*/
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .intro-container {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        padding: 0 0 0 0;
+        height: inherit;
+    }
+    .intro-container h1 {
+        margin: 0;
+        line-height: 3.5rem;
+        font-size: 44px;
+    }
+    .short-desc {
+        font-size: 10px;
+        margin-left: 4px;
+        width: 80%;
+    }
+    .short-desc br {
+        display: none;
+    }
+    .short-desc p {
+        margin-top: 6px;
+    }
+    .intro-container button {
+        height: 32px;
+        width: 150px;
+        font-size: 10px;
+        margin-left: 4px;
+    }
+    .hire-me {
+        margin-left: 1%;
+    }
+}
 
 
 /* Tablet - Portrait and Mobile Landscape View */
@@ -15,7 +47,7 @@
 
 /* Laptop and Desktop View */
 
-@media only screen and (min-width:1280px) {
+@media only screen and (min-width:480px) {
     .intro-container {
         padding-top: 8rem;
     }

@@ -1,6 +1,67 @@
 /* Mobile View - Portrait*/
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .projects-container {
+        margin-bottom: 2%;
+        padding: 0 0 0 0;
+        height: inherit;
+    }
+    .project-1 {
+        padding-top: 1%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.8fr 0.3fr 0.3fr 0.3fr;
+        grid-template-areas: "project-title" "project-1-image" "project-1-details " "project-1-language-button";
+    }
+    .title-projects h2 {
+        font-size: 44px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title-projects p {
+        font-size: 12px;
+        margin-top: -4px;
+        margin-left: 2px;
+        margin-bottom: 30px;
+    }
+    .project-1-title h1 {
+        font-size: 32px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .project-1-title p {
+        font-size: 12px;
+        margin-top: -6px;
+        margin-left: 2px;
+        margin-bottom: 0px;
+    }
+    .project-1-image {
+        height: 140px;
+        width: 340px;
+    }
+    .project-1-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .project-1-language-button {
+        font-size: 14px;
+        margin-top: -6px;
+        margin-left: 2px;
+        margin-bottom: 0px;
+    }
+    .project-1-language-button button {
+        background-color: #05111A;
+        color: white;
+        height: 32px;
+        width: 200px;
+        font-size: 10px;
+    }
+    .project-1-details {
+        font-size: 12px;
+        width: 85%;
+    }
+}
 
 
 /* Tablet - Portrait and Mobile Landscape View */
@@ -15,7 +76,7 @@
 
 /* Laptop and Desktop View */
 
-@media only screen and (min-width:1280px) {
+@media only screen and (min-width:480px) {
     .project-1 {
         display: grid;
         grid-template-columns: 1fr 1fr;

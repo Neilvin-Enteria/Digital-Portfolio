@@ -1,6 +1,20 @@
 /* Mobile View - Portrait*/
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr, 5);
+        grid-template-areas: "intro" "about-me" "projects" "skill-set" "contact";
+        grid-row-gap: 2.8%;
+    }
+    main {
+        margin: 0rem 0rem 0rem 1rem;
+    }
+    section {
+        height: 50%;
+        padding: 3%;
+    }
+}
 
 
 /* Tablet - Portrait and Mobile Landscape View */
@@ -15,10 +29,22 @@
 
 /* Laptop and Desktop View */
 
-@media only screen and (min-width:1280px) {
+@media only screen and (min-width:1280px) {}
+
+
+/* Temporary Laptop and Desktop View */
+
+@media only screen and (min-width: 480px) {
     main {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(1fr, 6);
-        grid-template-areas: "nav" "intro" "about-me" "projects" "skill-set" "contact";
+        grid-template-rows: repeat(1fr, 5);
+        grid-template-areas: "intro" "about-me" "projects" "skill-set" "contact";
+    }
+    main {
+        margin: 0rem 0rem 0rem 4rem;
+    }
+    section {
+        height: 100%;
+        padding: 5%;
     }
 }

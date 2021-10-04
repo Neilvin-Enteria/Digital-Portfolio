@@ -1,6 +1,43 @@
 /* Mobile View - Portrait*/
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .contact-container {
+        grid-template-columns: 1.5fr 0.3fr;
+        grid-template-rows: repeat(1fr, 5);
+        grid-template-areas: "contact-title contact-title" "endings-remarks other-platforms" "email-number other-platforms" "shape shape";
+        padding: 0;
+        height: inherit;
+    }
+    .title-contact h2 {
+        font-size: 44px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .title-contact p {
+        font-size: 12px;
+        margin-top: -4px;
+        margin-left: 2px;
+    }
+    .other-platforms {
+        position: relative;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr;
+        grid-template-areas: "facebook" "linkin" "github";
+        top: 40%;
+        right: 40%;
+    }
+    .other-platforms img {
+        object-fit: cover;
+        width: 40px;
+        height: 40px;
+    }
+    .ending-remarks p {
+        font-size: 12px;
+    }
+    .shape {
+        height: 70px;
+    }
+}
 
 
 /* Tablet - Portrait and Mobile Landscape View */
@@ -15,7 +52,7 @@
 
 /* Laptop and Desktop View */
 
-@media only screen and (min-width:1280px) {
+@media only screen and (min-width:480px) {
     .contact-container {
         grid-template-columns: 1.5fr 0.3fr 0.3fr;
         grid-template-rows: 0.3fr 0.3fr 0.5fr;
@@ -25,6 +62,9 @@
         font-size: 72px;
         margin-top: 0px;
         margin-bottom: 0px;
+    }
+    .title-contact br {
+        display: none;
     }
     .title-contact p {
         font-size: 18px;
@@ -53,7 +93,5 @@
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 0.2fr 0.2fr;
         grid-template-areas: "facebook" "linkin" "github";
-        top: 25%;
-        left: 50%;
     }
 }
