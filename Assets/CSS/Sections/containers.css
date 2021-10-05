@@ -4,28 +4,28 @@ main {
 
 .intro-container {
     grid-area: intro;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .about-me-container {
     display: grid;
     grid-area: about-me;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .projects-container {
     grid-area: projects;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .skill-set-container {
     display: grid;
     grid-area: skill-set;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .contact-container {
     display: grid;
     grid-area: contact;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
