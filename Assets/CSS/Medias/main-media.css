@@ -5,10 +5,10 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(1fr, 5);
         grid-template-areas: "intro" "about-me" "projects" "skill-set" "contact";
-        grid-row-gap: 12%;
+        grid-row-gap: 2.8%;
     }
     main {
-        margin: 6.3rem 0rem 0rem 1rem;
+        margin: 0rem 0rem 0rem 1rem;
     }
     section {
         height: 50%;
